@@ -14,7 +14,7 @@
     <form [formGroup]="form">
         <label>Tarefa:</label>
         <input class="input" type="text" placeholder="Título da tarefa..." maxlength="60" formControlName="titulo">  
-        <small class="danger" *ngIf="form.controls['titulo'].invalid && !form.controls['titulo'].pristine">Este campo deve ter entre 3 e 60 caracteres!<br></small>
+        <small class="mensagemvalidacao" *ngIf="form.controls['titulo'].invalid && !form.controls['titulo'].pristine">Este campo deve ter entre 3 e 60 caracteres!<br></small>
         <p class="text-center">
             <button class="button" [disabled]="form.invalid" (click)="salvar()"><i class="far fa-save"></i> Salvar</button>
         </p>

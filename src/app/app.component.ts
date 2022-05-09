@@ -9,7 +9,7 @@ import { Tarefa } from 'src/Entidades/tarefa.entidade';
 })
 export class AppComponent 
 {
-  public modo = "lista";
+  public modo = 'lista';
   public tarefas: Tarefa[] = [];
   public form: FormGroup;
 
@@ -34,7 +34,7 @@ export class AppComponent
      this.tarefas.push(new Tarefa(this.tarefas.length + 1, titulo, false));
      this.salvarLocalStorage();
      this.limparFormulario()
-     this.modo = "lista";
+     this.modo = 'lista';
   }
  
   remover(tarefa: Tarefa)
@@ -69,12 +69,12 @@ export class AppComponent
   salvarLocalStorage()
   {
     const dados = JSON.stringify(this.tarefas);
-    localStorage.setItem("tarefas",dados);
+    localStorage.setItem('tarefas',dados);
   }
 
   loadLocalStorage()
   {
-    const dados = localStorage.getItem("tarefas");
+    const dados = localStorage.getItem('tarefas');
     
     if(dados)
     {
