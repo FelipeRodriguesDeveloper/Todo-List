@@ -6,9 +6,9 @@ Desenvolvedor: Felipe Rodrigues
 
 GitHub:https://github.com/FelipeRodriguesDeveloper
 
-Linkedin:https://br.linkedin.com/in/felipe-rodrigues-programador
+LinkedIn: https://www.linkedin.com/in/felipe-rodrigues-programador
 
-Email: feliperodriguesdeveloper@hotmail.com
+E-mail: feliperodriguesdeveloper@hotmail.com
 
 
 # Todo
