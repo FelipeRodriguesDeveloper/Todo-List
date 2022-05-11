@@ -2,9 +2,13 @@ TodoList (Agenda de Tarefas) criado com Angular.
 
 Utilizado conceitos como models, formulários e validações, operações com listas, two-way binding, local storage, HTML, CSS.
 
+Vídeo de Apresentação deste Projeto: https://www.youtube.com/watch?v=Q6fdWdvI4To&t=4s
+
 Desenvolvedor: Felipe Rodrigues
 
-GitHub:https://github.com/FelipeRodriguesDeveloper
+Meu Canal no Youtube: Felipe Rodrigues Developer - https://www.youtube.com/channel/UCU8O4dYbGk3QCSPPaNP70MQ
+
+GitHub: https://github.com/FelipeRodriguesDeveloper
 
 LinkedIn: https://www.linkedin.com/in/felipe-rodrigues-programador
 
